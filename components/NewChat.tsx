@@ -28,7 +28,7 @@ function NewChat({ text }: ButtonText) {
   };
 
   return (
-    <div onClick={createNewChat} className="border border-gray-700 chatRow">
+    <div onClick={createNewChat} className="rounded-lg px-5 py-3 text-sm flex items-center space-x-2 hover:bg-gray-700/70 cursor-pointer text-gray-300 transition-all duration-200 ease-out border border-gray-700">
       <PlusIcon className="h-4 w-4" />
       <p className="text-lg">{!text ? "New Chat" : text}</p>
     </div>

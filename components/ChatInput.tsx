@@ -6,7 +6,7 @@ import { useSession } from "next-auth/react";
 import { FormEvent, useState } from "react";
 import toast from "react-hot-toast";
 import { db } from "../firebase";
-import ModelSelection from "./ModelSelection";
+import ModelSelection from "../components/ModelSelection";
 import useSWR from "swr";
 import { useRouter } from "next/navigation";
 

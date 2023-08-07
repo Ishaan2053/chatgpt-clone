@@ -16,7 +16,7 @@ export default async function RootLayout({
 
   return (
     <html>
-      <head></head>
+      <head />
       <body>
         <SessionProvider session={session}>
           {!session ? (

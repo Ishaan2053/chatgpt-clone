@@ -17,10 +17,10 @@ function HomePage() {
             <h2>Examples</h2>
           </div>
           <div className="space-y-2">
-            <p className="infoText">"Explain Something to me"</p>
-            <p className="infoText">"How do I make an HTTP request?"</p>
+            <p className="infoText">Explain Something to me</p>
+            <p className="infoText">How do I make an HTTP request?</p>
             <p className="infoText hidden md:flex ">
-              "Got any Creative ideas for a 10 year old's birthday?"
+              Got any Creative ideas for a 10 year old`&apos`s birthday?
             </p>
           </div>
         </div>
