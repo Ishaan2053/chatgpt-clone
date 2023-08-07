@@ -21,7 +21,10 @@ export default function RootLayout({
       <body className={inter.className}>
         <div className="flex">
           {/* sidebar */}
-          <SideBar />
+          <div className="bg-[#202123] max-w-sm h-screen overflow-y-auto md:mix-w-[20rem]">
+            {" "}
+            <SideBar />
+          </div>
 
           {/* ClientProvider */}
 
