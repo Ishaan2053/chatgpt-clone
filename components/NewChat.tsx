@@ -28,7 +28,7 @@ function NewChat({ text }: ButtonText) {
   };
 
   return (
-    <div onClick={createNewChat} className="border border-gray-700  chatRow">
+    <div onClick={createNewChat} className="border border-gray-700 chatRow">
       <PlusIcon className="h-4 w-4" />
       <p className="text-lg">{!text ? "New Chat" : text}</p>
     </div>
