@@ -8,9 +8,8 @@ function DevelopedBy() {
         Developed by &nbsp;
         <Link
           className="underline text-blue-500"
-          href={"https://twitter.com/ishaan2053"}
-        >
-          Ishaan2053.
+          href={"https://github.com/ishaan2053"}
+        >Ishaan2053
           <sup className=" inline-flex">
             <ArrowTopRightOnSquareIcon className="w-3 h-3 text-blue-500" />
           </sup>

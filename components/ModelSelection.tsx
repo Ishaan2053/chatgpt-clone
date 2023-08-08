@@ -14,9 +14,10 @@ function ModelSelection() {
   });
 
   return (
-    <div className="mt-2 text-black bg-[#434654]">
+    <div className="mt-2 text-gray-700">
       <Select
-        className="mt-2"
+        className="mt-2 bg-black"
+     
         options={models?.modelOptions}
         defaultValue={model}
         placeholder={model}

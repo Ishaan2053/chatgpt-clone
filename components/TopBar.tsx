@@ -20,7 +20,7 @@ function TopBar() {
       >
         <Bars3Icon
           onClick={topBarHandle}
-          className="h-8 w-8 text-[#b3b3b3]  font-bold "
+          className="h-8 w-8 text-[#b3b3b3]  font-bold"
         />
       </div>
     </>

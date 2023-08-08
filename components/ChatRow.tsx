@@ -33,7 +33,7 @@ function ChatRow({ id }: props) {
   return (
     <Link
       href={`/chat/${id}`}
-      className={`chatRow justify-center ${active && "bg-gray-700"}  `}
+      className={`rounded-lg px-5 py-3 text-sm flex items-center space-x-2 hover:bg-gray-700/70 cursor-pointer font-semibold text-gray-300 transition-all duration-200 ease-out justify-center ${active && "bg-gray-700"}  `}
     >
       <ChatBubbleLeftIcon className="h-5 w-5" />
       <p className="flex-1 truncate">
@@ -41,7 +41,7 @@ function ChatRow({ id }: props) {
       </p>
       <TrashIcon
         onClick={removeChat}
-        className="h-5 w-5 text-gray-700 hover:text-red-700"
+        className="h-5 w-5 text-gray-300 hover:text-red-500"
       />
     </Link>
   );
