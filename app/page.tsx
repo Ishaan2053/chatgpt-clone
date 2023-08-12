@@ -7,21 +7,11 @@ import NewChat from "../components/NewChat";
 
 function HomePage() {
   return (
-    <div className="relative flex flex-col items-center justify-center h-screen text-gray-100 overflow-hidden">
+    <div className="flex flex-col items-center justify-center h-screen text-gray-100 overflow-hidden">
       <div className="absolute top-6 flex rounded-xl bg-gray-100 p-1 text-gray-900 dark:bg-black/40">
         <ul className="flex w-full list-none gap-1 sm:w-auto">
-          <li
-            className="group/toggle w-full"
-            data-testid="text-davinci-002-render-sha"
-          >
-            <button
-              type="button"
-              id="radix-:req:"
-              aria-haspopup="menu"
-              aria-expanded="false"
-              data-state="closed"
-              className="w-full cursor-pointer"
-            >
+          <li className="group/toggle w-full">
+            <button aria-haspopup="menu" className="w-full cursor-pointer">
               <div className="group/button relative flex w-full items-center justify-center gap-1 rounded-lg border py-3 outline-none transition-opacity duration-100 sm:w-auto sm:min-w-[148px] md:gap-2 md:py-2.5 border-black/10 bg-white text-gray-900 shadow-[0_1px_7px_0px_rgba(0,0,0,0.06)] hover:!opacity-100 dark:border-[#4E4F60] dark:bg-gray-500/40 dark:text-gray-100">
                 <span className="relative max-[370px]:hidden">
                   <svg
@@ -43,17 +33,12 @@ function HomePage() {
                   GPT-3.5
                 </span>
               </div>
+             
             </button>
+
           </li>
           <li className="group/toggle w-full">
-            <button
-              type="button"
-              id="radix-:res:"
-              aria-haspopup="menu"
-              aria-expanded="false"
-              data-state="closed"
-              className="w-full cursor-pointer"
-            >
+            <button aria-haspopup="menu" className="w-full cursor-pointer">
               <div className="group/button relative flex w-full items-center justify-center gap-1 rounded-lg border py-3 outline-none transition-opacity duration-100 sm:w-auto sm:min-w-[148px] md:gap-2 md:py-2.5 border-transparent text-gray-500 hover:text-gray-800 hover:dark:text-gray-100">
                 <span className="relative max-[370px]:hidden">
                   <svg
@@ -80,7 +65,7 @@ function HomePage() {
                   fill="currentColor"
                   aria-hidden="true"
                   stroke-width="2"
-                  className="h-4 w-4 transition-colors sm:ml-0 group-hover/options:text-gray-500 !text-gray-500 -ml-2 group-hover/button:text-brand-purple"
+                  className="h-4 w-4 transition-colors sm:ml-0 group-hover/options:text-gray-500 !text-gray-500 -ml-2 group-hover:text-purple"
                 >
                   <path
                     fill-rule="evenodd"
@@ -154,7 +139,7 @@ function HomePage() {
       </div>
 
       <div className=" py-5 px-10 font-bold">
-        <NewChat  />
+        <NewChat />
       </div>
       <sub className="absolute mb-9 text-gray-300">
         Free Research Preview. ChatGPT may produce inaccurate information about
@@ -167,10 +152,8 @@ function HomePage() {
           ChatGPT August 3 Version
         </a>
       </sub>
-    
 
-      <div
-        className="group absolute bottom-5 right-4 z-10" >
+      <div className="group absolute bottom-5 right-4 z-10">
         <button
           className="invisible flex items-center justify-center rounded-full border border-gray-200 bg-gray-50 text-gray-600 dark:border-white/10 dark:bg-white/10 dark:text-gray-200 md:visible mr-2"
           type="button"
@@ -178,8 +161,9 @@ function HomePage() {
           aria-expanded="false"
         >
           <div className="h-6 w-6">?</div>
-            <span
-                className="absolute transition-all hidden group-hover:flex -left-24 -top-3 -translate-y-full max-w-32 px-2 py-1 bg-gray-700 rounded-lg text-center text-white text-sm after:content-[''] after:absolute after:left-1/2 after:top-[100%] after:translate-x-3/4 after:border-8 after:border-x-transparent after:border-b-transparent after:border-t-gray-700">This tooltip doesn't go anywhere</span>
+          <span className="absolute transition-all hidden group-hover:flex -left-24 -top-3 -translate-y-full max-w-32 px-2 py-1 bg-gray-700 rounded-lg text-center text-white text-sm after:content-[''] after:absolute after:left-1/2 after:top-[100%] after:translate-x-3/4 after:border-8 after:border-x-transparent after:border-b-transparent after:border-t-gray-700">
+            This tooltip doesn't go anywhere
+          </span>
         </button>
       </div>
     </div>
