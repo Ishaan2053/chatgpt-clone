@@ -2,7 +2,7 @@
   "name": "chatgpt-clone",
   "version": "0.1.0",
   "private": true,
-  "author": "Ishaan",
+  "author": "Ishaan2053",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
